@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-3*=i4xgabcjfmjcajfjv*!dm_orgscc33l+4uy8tlw)x_74p2s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app']
 
 
 # Application definition
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tracking_expenses.wsgi.application'
+WSGI_APPLICATION = 'tracking_expenses.wsgi.app'
 
 
 # Database
@@ -120,7 +120,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-WSGI_APPLICATION = 'tracking_expenses.wsgi.app'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
